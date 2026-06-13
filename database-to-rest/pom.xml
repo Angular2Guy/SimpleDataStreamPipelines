@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>4.0.0</version>
+		<version>4.1.0</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>de.xxx</groupId>
@@ -15,7 +15,7 @@
 	<name>DatabaseToRest</name>
 	<description>Pipeline from Db to Rest Endpoint</description>
 	<properties>
-		<java.version>24</java.version>
+		<java.version>25</java.version>
 		<debezium.version>3.3.2.Final</debezium.version>
 	</properties>
 	<dependencies>

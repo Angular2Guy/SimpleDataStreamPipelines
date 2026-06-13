@@ -15,7 +15,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>4.0.0</version>
+		<version>4.1.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>de.xxx</groupId>
@@ -38,8 +38,8 @@
 	</scm>
 	<properties>
 		<jaxb-maven-plugin.version>4.0.8</jaxb-maven-plugin.version>
-        <java.version>24</java.version>
-        <kotlin.version>2.2.21</kotlin.version>
+        <java.version>25</java.version>
+        <kotlin.version>2.3.21</kotlin.version>
 	</properties>
 	<dependencies>
         <dependency>
