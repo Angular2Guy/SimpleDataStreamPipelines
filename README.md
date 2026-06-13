@@ -3,12 +3,12 @@
 ---
 
 This is a project shows howto create DataStream Pipelines based on Spring Boot and Kafka 
-that are simple, efficient and based on Jdk 24+. This project is a simpler alternative to the Spring Cloud Data Flow 
+that are simple, efficient and based on Jdk 25+. This project is a simpler alternative to the Spring Cloud Data Flow 
 architecture. A DataStream Pipeline has a source that
 receives changes/requests and transforms them to events that are send to Kafka. The 
 Kafka events are received by the sink and transformed to be send to the receiving
 system. A DataStream is one Spring Boot application providing the source and sink.
-The scalability and efficiency is provided by Jdk 24+ Virtual Threads(pinned Threads issue resolved).  
+The scalability and efficiency is provided by Jdk 25+ Virtual Threads(pinned Threads issue resolved).  
 
 Author: Sven Loesekann
 
@@ -33,7 +33,7 @@ Kubernetes, Helm, Docker
 
 ## Mission Statement
 
-The project shows howto create and run DataStreams based on Jdk 24+. DataStreams are 
+The project shows howto create and run DataStreams based on Jdk 25+. DataStreams are 
 a single application that contains the data source that receives the requests/events/changes 
 and turns them into Kafka events and sends them to Kafka. The sink of the DataStream 
 receives the Kafka events and sends/stores them in the target system. The Virtual Threads 
